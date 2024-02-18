@@ -1,0 +1,161 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+
+    background-color: hsl(235, 18%, 26%);
+}
+
+.dlgBox {
+
+    background-color: hsl(0, 0%, 100%);
+    width: 550px;
+    height: 430px;
+    margin: 100px 500px 150px 250px;
+    border-radius: 10px;
+}
+
+img {
+
+    float: right;
+    height: 410px;
+    width: 290px;
+    clear: inherit;
+    padding-top: 10px;
+    
+}
+
+.topic {
+
+font-family: Roboto-Bold; 
+font-size: 25px; 
+font-weight: 700; 
+padding-left: 30px;
+padding-top: 50px;
+
+}
+
+.firstLine {
+
+    font-size: 16px;
+    font-family: Roboto-Regular;
+    padding-left: 30px;
+
+}
+
+ul {
+
+    list-style-image: url('file:///D:/Front-End-Mentor-Projects/newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg');
+    list-style-position: outside;
+    padding-left: 50px;
+    
+  }
+
+  li {
+
+    font-size: 16px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+
+  }
+
+ form {
+
+    padding-left: 30px;
+    padding-bottom: 50px;
+
+ } 
+
+  label {
+
+    font-weight: 700;
+  }
+
+  input {
+
+    width: 40%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+  }
+
+  input[type=submit] {
+
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    
+  }
+
+  input[type=submit]:hover {
+
+    background-color: black;
+
+  }
+
+/*Success page*/
+
+.successPage{
+
+  background-color: hsl(235, 18%, 26%);
+
+}
+
+.msgBox {
+
+  background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  height: 350px;
+  margin: 150px 500px 150px 350px;
+  border-radius: 10px;
+
+}
+
+.successImg {
+
+  max-width: 40px;
+  position: fixed;
+  top: -20px;
+  bottom: 130px;
+  left: 380px;
+
+}
+
+.heading {
+
+  padding-top: 85px;
+  padding-left: 20px;
+  padding-right: 30px;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+p {
+
+  padding-left: 20px;
+  font-size: 16px;
+  padding-right: 20px;
+
+}
+
+button {
+
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  width: 85%;
+  height: 30px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+
+}
+
+button:hover {
+
+  background-color: black;
+
+}
